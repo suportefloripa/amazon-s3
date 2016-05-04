@@ -1,12 +1,12 @@
 # amazon-s3
 You can download most recent version of Amazon PHP SDK by running following composer command
 
-composer require aws/aws-sdk-php
+     composer require aws/aws-sdk-php
 
-// Include the SDK using the Composer autoloader
-     require 'vendor/autoload.php';
-     use Aws\S3\S3Client;
-     use Aws\S3\Exception\S3Exception;
+     // Include the SDK using the Composer autoloader
+      require 'vendor/autoload.php';
+      use Aws\S3\S3Client;
+      use Aws\S3\Exception\S3Exception;
 
         // Set Amazon s3 credentials
       $client = S3Client::factory(
