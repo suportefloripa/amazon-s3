@@ -1,4 +1,5 @@
 <?php
+use Aws\S3\S3Client;
 // Bucket Name
 $bucket="BucketName";
 
