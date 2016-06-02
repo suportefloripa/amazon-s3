@@ -1,7 +1,7 @@
 <?php
    // Include the SDK using the Composer autoloader
      require 'vendor/autoload.php';
-     use Aws\S3\S3Client;
+   //  use Aws\S3\S3Client;
      use Aws\S3\Exception\S3Exception;
  
 include('image_validation.php'); // getExtension Method
