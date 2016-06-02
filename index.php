@@ -41,7 +41,7 @@ echo 'S3 File URL:'.$s3file;
          // Catch an S3 specific exception.
         echo $e->getMessage();
     }
- 
+} 
 else
 $message = "Image size Max 1 MB";
  
